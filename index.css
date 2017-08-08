@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+#clock {
+  width: 30vw;
+  height: 30vw;
+  background-color: white;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+
+#hours {
+  width: 2%;
+  height: 30%;
+  background-color: blue;
+  position: absolute;
+  top : 20%;
+  left: 49%;
+  transform-origin: 0 100%;
+}
+
+#minutes {
+  width: 1%;
+  height: 40%;
+  background-color: black;
+  position: absolute;
+  top :10%;
+  left: 49.50%;
+  transform-origin: 0 100%;
+}
+
+#seconds {
+  width: 0.5%;
+  height: 50%;
+  background-color: red;
+  position: absolute;
+  top : 0;
+  left: 49.75%;
+  transform-origin: 0 100%;
+}
+
+.min {
+  width: 0.25%;
+  height: 4%;
+  position: absolute;
+  background-color: black;
+  position: absolute;
+  transform-origin: 50% 1250%;
+  top: 0;
+  left: 50%;
+}
+
+
+#min5 {
+  transform: rotate(30deg);
+}
+
+#min10 {
+  transform: rotate(60deg);
+}
+
+#min15 {
+  transform: rotate(90deg);
+}
+
+#min20 {
+  transform: rotate(120deg);
+}
+
+#min25 {
+  transform: rotate(150deg);
+}
+
+#min30 {
+  transform: rotate(180deg);
+}
+
+#min35 {
+  transform: rotate(210deg);
+}
+
+#min40 {
+  transform: rotate(240deg);
+}
+
+#min45 {
+  transform: rotate(270deg);
+}
+
+#min50 {
+  transform: rotate(300deg);
+}
+
+#min55 {
+  transform: rotate(330deg);
+}
