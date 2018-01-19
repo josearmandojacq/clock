@@ -1,13 +1,13 @@
+//Getting the current Date
 var date = new Date();
 
-
-
+//Selecting the elements of the clock
 var minutesNeddles = document.querySelector("#minutes");
 var hoursNeddles = document.querySelector("#hours");
 var secondsNeddles = document.querySelector("#seconds");
 
-
-function positionNeedles () {
+//positioning the pieces of the clock and adding animations
+function positionNeedles() {
   var date = new Date();
   var hours = date.getHours();
   var minutes = date.getMinutes();
@@ -18,7 +18,8 @@ function positionNeedles () {
   hoursNeddles.style.transform = "rotate(" + hours + "deg)";
   minutesNeddles.style.transform = "rotate(" + minutes + "deg)";
   secondsNeddles.style.transform = "rotate(" + seconds + "deg)";
-
 }
 
-var moveClock = setInterval(function(){positionNeedles()},1000);
+var moveClock = setInterval(function() {
+  positionNeedles();
+}, 1000);
